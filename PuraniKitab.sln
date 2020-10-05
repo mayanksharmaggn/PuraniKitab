@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PuraniKitab", "PuraniKitab\PuraniKitab.csproj", "{567FC374-8EAC-4485-9EC4-0699A1183B5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PuraniKitab", "PuraniKitab\PuraniKitab.csproj", "{567FC374-8EAC-4485-9EC4-0699A1183B5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PuraniKitab.DataAccess", "PuraniKitab.DataAccess\PuraniKitab.DataAccess.csproj", "{C2966FDC-6DF0-498B-8BDE-658E0C3BDF00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PuraniKitab.Models", "PuraniKitab.Models\PuraniKitab.Models.csproj", "{6B9303E0-5969-4546-936D-48217C3D3F1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PuraniKitab.Utility", "PuraniKitab.Utility\PuraniKitab.Utility.csproj", "{54489C98-736B-4E5C-841D-F0C179D3F690}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{567FC374-8EAC-4485-9EC4-0699A1183B5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{567FC374-8EAC-4485-9EC4-0699A1183B5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{567FC374-8EAC-4485-9EC4-0699A1183B5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2966FDC-6DF0-498B-8BDE-658E0C3BDF00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2966FDC-6DF0-498B-8BDE-658E0C3BDF00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2966FDC-6DF0-498B-8BDE-658E0C3BDF00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2966FDC-6DF0-498B-8BDE-658E0C3BDF00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B9303E0-5969-4546-936D-48217C3D3F1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B9303E0-5969-4546-936D-48217C3D3F1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B9303E0-5969-4546-936D-48217C3D3F1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B9303E0-5969-4546-936D-48217C3D3F1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54489C98-736B-4E5C-841D-F0C179D3F690}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54489C98-736B-4E5C-841D-F0C179D3F690}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54489C98-736B-4E5C-841D-F0C179D3F690}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54489C98-736B-4E5C-841D-F0C179D3F690}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
