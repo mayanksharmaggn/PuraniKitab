@@ -22,4 +22,11 @@
     <Folder Include="Controllers\" />
   </ItemGroup>
 
+
+  <ItemGroup>
+    <ProjectReference Include="..\PuraniKitab.DataAccess\PuraniKitab.DataAccess.csproj" />
+    <ProjectReference Include="..\PuraniKitab.Models\PuraniKitab.Models.csproj" />
+    <ProjectReference Include="..\PuraniKitab.Utility\PuraniKitab.Utility.csproj" />
+  </ItemGroup>
+
 </Project>

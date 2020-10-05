@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using PuraniKitab.Models;
+using PuraniKitab.Models.ViewModels;
 
 namespace PuraniKitab.Areas.Customers.Controllers
 {
