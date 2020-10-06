@@ -10,10 +10,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Data\Migrations\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\PuraniKitab.Models\PuraniKitab.Models.csproj" />
     <ProjectReference Include="..\PuraniKitab.Utility\PuraniKitab.Utility.csproj" />
   </ItemGroup>
