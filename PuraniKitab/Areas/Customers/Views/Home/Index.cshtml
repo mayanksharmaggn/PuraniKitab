@@ -1,8 +1,315 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
-}
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+}
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+        <div class="item active">
+            <img src="~/images/best-books-to-read-this-summer-1-1280x720.jpg" alt="Los Angeles" style="width:100%;height:550px;">
+            <div class="carousel-caption">
+
+
+            </div>
+        </div>
+
+        
+        
+
+        <div class="item">
+            <img src="~/images/books_1200.jpg" alt="New York" style="width:100%; height:550px;">
+            <div class="carousel-caption">
+
+
+            </div>
+            </div>
+            <div class="item">
+                <img src="~/images/How-to-format-a-book.jpg" alt="New York" style="width:100%;height:550px;">
+                <div class="carousel-caption">
+
+
+                </div>
+
+
+            </div>
+            </div>
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
 </div>
+<div class="site-section" id="products-section">
+    <div class="container">
+        <div class="row mb-5 justify-content-center">
+            <div class="col-md-6 text-center">
+           
+                <h2 class="section-title mb-3">Popular Books</h2>
+              
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-5">
+                <div class="product-item">
+                    <figure>
+                        <img src="~/images/navathe.jpg" alt="Image"  style="width:250px; height:250px;">
+                    </figure>
+                    
+                    <div class="px-4">
+                        <h3><a href="#">Database Design Navathe</a></h3>
+                        <div class="mb-3">
+                            <span class="meta-icons mr-3"><a href="#" class="mr-2"><span class="icon-star text-warning"></span></a> 5.0</span>
+                            <span class="meta-icons wishlist"><a href="#" class="mr-2"><span class="icon-heart"></span></a> 29</span>
+                        </div>
+                        <p class="mb-4">IT, Engineering.</p>
+                        <div>
+                            <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
+                            <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-5">
+                <div class="product-item">
+                    <figure>
+                        <img src="~/images/1600813212-9780525566083.jpg" alt="Image"  style="width:250px; height:250px;">
+                    </figure>
+                    
+                    <div class="px-4">
+                        <h3><a href="#">English Novel</a></h3>
+                        <div class="mb-3">
+                            <span class="meta-icons mr-3"><a href="#" class="mr-2"><span class="icon-star text-warning"></span></a> 5.0</span>
+                            <span class="meta-icons wishlist active"><a href="#" class="mr-2"><span class="icon-heart"></span></a> 29</span>
+                        </div>
+                        <p class="mb-4">English, Literature</p>
+                        <div>
+                            <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
+                            <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-5">
+                <div class="product-item">
+                    <figure>
+                        <img src="~/images/DCpandeybook.jpg" alt="Image"  style="width:250px; height:250px;">
+                    </figure>
+                    <div class="px-4">
+                        <h3><a href="#">IIT JEE </a></h3>
+                        <div class="mb-3">
+                            <span class="meta-icons mr-3"><a href="#" class="mr-2"><span class="icon-star text-warning"></span></a> 5.0</span>
+                            <span class="meta-icons wishlist"><a href="#" class="mr-2"><span class="icon-heart"></span></a> 29</span>
+                        </div>
+                        <p class="mb-4"> Physics,  Mechanical</p>
+                        <div>
+                            <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
+                            <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-5">
+                <div class="product-item">
+                    <figure>
+                        <img src="~/images/71P.jpg" alt="Image"  style="width:250px; height:250px;">
+                    </figure>
+                    <div class="px-4">
+                        <h3><a href="#"> Novel</a></h3>
+                        <div class="mb-3">
+                            <span class="meta-icons mr-3"><a href="#" class="mr-2"><span class="icon-star text-warning"></span></a> 5.0</span>
+                            <span class="meta-icons wishlist"><a href="#" class="mr-2"><span class="icon-heart"></span></a> 29</span>
+                        </div>
+                        <p class="mb-4">Literature,English.</p>
+                        <div>
+                            <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
+                            <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-5">
+                <div class="product-item">
+                    <figure>
+                        <img src="~/images/cicero-book-quote-1531932791.jpg" alt="Image"  style="width:250px; height:250px;">
+                    </figure>
+                    <div class="px-4">
+                        <h3><a href="#">Cicero</a></h3>
+                        <div class="mb-3">
+                            <span class="meta-icons mr-3"><a href="#" class="mr-2"><span class="icon-star text-warning"></span></a> 5.0</span>
+                            <span class="meta-icons wishlist"><a href="#" class="mr-2"><span class="icon-heart"></span></a> 29</span>
+                        </div>
+                        <p class="mb-4">Literature,English</p>
+                        <div>
+                            <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
+                            <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-5">
+                <div class="product-item">
+                    <figure>
+                        <img src="~/images/imagescorona.jpg" alt="Image"  style="width:250px; height:250px;">
+                    </figure>
+                    <div class="px-4">
+                        <h3><a href="#">Health Journal</a></h3>
+                        <div class="mb-3">
+                            <span class="meta-icons mr-3"><a href="#" class="mr-2"><span class="icon-star text-warning"></span></a> 5.0</span>
+                            <span class="meta-icons wishlist"><a href="#" class="mr-2"><span class="icon-heart"></span></a> 29</span>
+                        </div>
+                        <p class="mb-4">Medical, Literature.</p>
+                        <div>
+                            <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
+                            <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+<div class="site-section border-bottom" id="team-section">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-12 text-center">
+             
+                <h2 class="section-title mb-3"> Trending Authors</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="100">
+                <div class="person text-center">
+                    <img src="~/images/DcPandey.jpg" class="img-fluid rounded w-75 mb-3" style="width:200px; height:200px;"/>
+                    <h3>DC Pandey</h3>
+                    <p class="position text-muted">Professor, Physics</p>
+                    <p class="mb-4"> Author of IIT JEE exam books, Professor of Physics since last 25 Years</p>
+                    <ul class="ul-social-circle">
+                        <li><a href="#"><span class="icon-facebook"></span></a></li>
+                        <li><a href="#"><span class="icon-twitter"></span></a></li>
+                        <li><a href="#"><span class="icon-linkedin"></span></a></li>
+                        <li><a href="#"><span class="icon-instagram"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="200">
+                <div class="person text-center">
+                    
+                    <img src="~/images/672144-hc-verma.jpg" class="img-fluid rounded w-75 mb-3" style="width:200px; height:200px;"/>
+                    <h3>H C Verma</h3>
+                    <p class="position text-muted">Professor ,Physics</p>
+                    <p class="mb-4">  Professor of Physics since last 32 Years, IIT Kanpur</p>
+                    <ul class="ul-social-circle">
+                        <li><a href="#"><span class="icon-facebook"></span></a></li>
+                        <li><a href="#"><span class="icon-twitter"></span></a></li>
+                        <li><a href="#"><span class="icon-linkedin"></span></a></li>
+                        <li><a href="#"><span class="icon-instagram"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="300">
+                <div class="person text-center">
+                    <img src="~/images/samantha .jpg" class="img-fluid rounded w-75 mb-3" style="width:200px; height:200px;"/>
+                    <h3>Samantha Hodson</h3>
+                    <p class="position text-muted"> Teacher Maths </p>
+                    <p class="mb-4">Algerbra Teacher</p>
+                    <ul class="ul-social-circle">
+                        <li><a href="#"><span class="icon-facebook"></span></a></li>
+                        <li><a href="#"><span class="icon-twitter"></span></a></li>
+                        <li><a href="#"><span class="icon-linkedin"></span></a></li>
+                        <li><a href="#"><span class="icon-instagram"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="site-section testimonial-wrap" id="testimonials-section">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-12 text-center">
+                
+                <h2 class="section-title mb-3">Testimonials</h2>
+            </div>
+        </div>
+    </div>
+    <div class="slide-one-item home-slider owl-carousel">
+        <div>
+            <div class="testimonial">
+                <figure class="mb-4 d-block align-items-center justify-content-center">
+                    <div><img src="images/person_3.jpg" alt="Image" class="w-100 img-fluid mb-3"></div>
+                </figure>
+                <blockquote class="mb-3">
+                    <p>&ldquo;   Due to KitabWala , I am able to save some time  while searching books from one shop to another .Its a platform from where i can get all my Course books on time  &rdquo;</p>
+                </blockquote>
+                <p class="text-black"><strong>Rakesh Kumar ,3rd Engg Student</strong></p>
+
+
+            </div>
+        </div>
+        <div>
+            <div class="testimonial">
+
+                <figure class="mb-4 d-block align-items-center justify-content-center">
+                    <div><img src="images/person_2.jpg" alt="Image" class="w-100 img-fluid mb-3"></div>
+                </figure>
+
+                <blockquote class="mb-3">
+                    <p>&ldquo;Hassle Free, On Time Delivery of books &rdquo;</p>
+                </blockquote>
+
+                <p class="text-black"><strong> Mita Roy</strong></p>
+
+
+            </div>
+        </div>
+
+        <div>
+            <div class="testimonial">
+                <figure class="mb-4 d-block align-items-center justify-content-center">
+                    <div><img src="images/person_4.jpg" alt="Image" class="w-100 img-fluid mb-3"></div>
+                </figure>
+                <blockquote class="mb-3">
+                    <p>&ldquo;Wonderful Experience with Them , it was a waste of time while searching the books from one shop to another , can  spend  that time with friends or something new to learn&rdquo;</p>
+                </blockquote>
+                <p class="text-black"><strong>Roger Spears</strong></p>
+
+
+            </div>
+
+        </div>
+
+        
+
+    </div>
+</div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
